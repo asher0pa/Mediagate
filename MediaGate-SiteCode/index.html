@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="login">
+			<h1>MediaGate Secure Login</h1>
+			<img src="logo.png" style='height: 100%; width: 100%; object-fit: contain' alt="logo">
+			<form action="authenticate.php" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<input type="submit" value="Login">
+			</form>
+			<form>
+				<input type="submit" value="ResetPassword" formaction="build.jpg">
+			</form>
+			<form>
+				<input type="submit" value="ForgetPassword" formaction="build.jpg">
+			</form>
+		</div>
+	</body>
+</html>
